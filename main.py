@@ -120,7 +120,7 @@ def convert_pdf_to_jpg():
     
   
 if __name__ == "__main__":
-  #sync()
-  #delete_files_in_folder(remote_id)
-  #upload()
+  sync()
+  delete_files_in_folder(remote_id)
   convert_pdf_to_jpg()
+  upload()
