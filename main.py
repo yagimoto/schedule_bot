@@ -108,7 +108,7 @@ def convert_pdf_to_jpg():
     doc = fitz.open(os.path.join(FOLDER, f))
     page = doc.load_page(0)
 
-    mat = fitz.Matrix(5, 5)
+    mat = fitz.Matrix(3, 3)
     pix = page.get_pixmap(matrix=mat)
 
     filename = str(count) + ".jpg"
